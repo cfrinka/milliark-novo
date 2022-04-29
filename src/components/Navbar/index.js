@@ -10,9 +10,7 @@ import {
   MobileIcon,
   NavMenu,
   NavItem,
-  NavLinks,
-  NavBtn,
-  NavBtnLink
+  NavLinks
 } from './NavbarElements'
 
 import logo from '../../images/logo.png'
@@ -53,7 +51,7 @@ const Navbar = ({ toggle }) => {
               exact='true'
               offset={-80}
             >
-              <img src={logo} alt="logo" /></NavLogo>
+              <img src={logo} alt="logo" style={{ height: '100px' }} /></NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
             </MobileIcon>
@@ -67,7 +65,7 @@ const Navbar = ({ toggle }) => {
                   exact='true'
                   offset={-80}
                 >
-                  Texto 1</NavLinks>
+                  Quem Somos?</NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
@@ -78,7 +76,7 @@ const Navbar = ({ toggle }) => {
                   exact='true'
                   offset={-80}
                 >
-                  Texto 2</NavLinks>
+                  Nossos Princípios</NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
@@ -89,7 +87,7 @@ const Navbar = ({ toggle }) => {
                   exact='true'
                   offset={-80}
                 >
-                  Texto 3</NavLinks>
+                  Entregáveis</NavLinks>
               </NavItem>
             </NavMenu>
           </NavbarContainer>

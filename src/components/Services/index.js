@@ -15,26 +15,36 @@ import {
 const Services = () => {
   return (
     <>
-    <ServicesContainer id='services'>
-      <ServicesH1>Our Services</ServicesH1>
-      <ServicesWrapper>
-        <ServicesCard>
-          <ServicesIcon src={Icon1} />
-          <ServicesH2>Reduce Expenses</ServicesH2>
-          <ServicesP>We help reduce your fess and increase your overall revenue.</ServicesP>
-        </ServicesCard>
-        <ServicesCard>
-          <ServicesIcon src={Icon2} />
-          <ServicesH2>Virtual Offices</ServicesH2>
-          <ServicesP>You can access our platform online anywhere in the world.</ServicesP>
-        </ServicesCard>
-        <ServicesCard>
-          <ServicesIcon src={Icon3} />
-          <ServicesH2>Premium Benefits</ServicesH2>
-          <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP>
-        </ServicesCard>
-      </ServicesWrapper>
-    </ServicesContainer>
+      <ServicesContainer id='services'>
+        <ServicesH1>Entregáveis</ServicesH1>
+        <ServicesWrapper>
+          <ServicesCard>
+            <ServicesIcon src={Icon1} />
+            <ServicesH2>Alinhamento de estratégia e objetivos</ServicesH2>
+            <ServicesP>lorem ipsum</ServicesP>
+          </ServicesCard>
+          <ServicesCard>
+            <ServicesIcon src={Icon2} />
+            <ServicesH2>Business Case</ServicesH2>
+            <ServicesP>lorem ipsum.</ServicesP>
+          </ServicesCard>
+          <ServicesCard>
+            <ServicesIcon src={Icon3} />
+            <ServicesH2>Criação de Corporações</ServicesH2>
+            <ServicesP>lorem ipsum</ServicesP>
+          </ServicesCard>
+          <ServicesCard>
+            <ServicesIcon src={Icon1} />
+            <ServicesH2>Negócios Sustentáveis</ServicesH2>
+            <ServicesP>lorem ipsum</ServicesP>
+          </ServicesCard>
+          <ServicesCard>
+            <ServicesIcon src={Icon1} />
+            <ServicesH2>Fusões e Aquisições - (M & A)</ServicesH2>
+            <ServicesP>lorem ipsum</ServicesP>
+          </ServicesCard>
+        </ServicesWrapper>
+      </ServicesContainer>
     </>
   )
 }

@@ -12,10 +12,10 @@ import {
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
-  WebsiteRights,
   SocialIconLink,
   SocialIcons
 } from './FooterElements'
+import logo from '../../images/logo.png'
 
 const toggleHome = () => {
   scroll.scrolltoTop();
@@ -30,49 +30,21 @@ const Footer = () => {
             <FooterLinksWrapper>
               <FooterLinkItems>
                 <FooterLinkTitle>About Us</FooterLinkTitle>
-                  <FooterLink to="/signin">How it works</FooterLink>
-                  <FooterLink to="/signin">Testimonials</FooterLink>
-                  <FooterLink to="/signin">Careers</FooterLink>
-                  <FooterLink to="/signin">Investors</FooterLink>
-                  <FooterLink to="/signin">Terms of Service</FooterLink>
-              </FooterLinkItems>
-              <FooterLinkItems>
-                <FooterLinkTitle>About Us</FooterLinkTitle>
-                  <FooterLink to="/signin">How it works</FooterLink>
-                  <FooterLink to="/signin">Testimonials</FooterLink>
-                  <FooterLink to="/signin">Careers</FooterLink>
-                  <FooterLink to="/signin">Investors</FooterLink>
-                  <FooterLink to="/signin">Terms of Service</FooterLink>
-              </FooterLinkItems>
-            </FooterLinksWrapper>
-            <FooterLinksWrapper>
-              <FooterLinkItems>
-                <FooterLinkTitle>About Us</FooterLinkTitle>
-                  <FooterLink to="/signin">How it works</FooterLink>
-                  <FooterLink to="/signin">Testimonials</FooterLink>
-                  <FooterLink to="/signin">Careers</FooterLink>
-                  <FooterLink to="/signin">Investors</FooterLink>
-                  <FooterLink to="/signin">Terms of Service</FooterLink>
-              </FooterLinkItems>
-              <FooterLinkItems>
-                <FooterLinkTitle>About Us</FooterLinkTitle>
-                  <FooterLink to="/signin">How it works</FooterLink>
-                  <FooterLink to="/signin">Testimonials</FooterLink>
-                  <FooterLink to="/signin">Careers</FooterLink>
-                  <FooterLink to="/signin">Investors</FooterLink>
-                  <FooterLink to="/signin">Terms of Service</FooterLink>
+                <FooterLink to="/signin">How it works</FooterLink>
+                <FooterLink to="/signin">Testimonials</FooterLink>
+                <FooterLink to="/signin">Careers</FooterLink>
+                <FooterLink to="/signin">Investors</FooterLink>
+                <FooterLink to="/signin">Terms of Service</FooterLink>
               </FooterLinkItems>
             </FooterLinksWrapper>
           </FooterLinksContainer>
           <SocialMedia>
             <SocialMediaWrap>
-              <SocialLogo 
-              to='/'
-              onClick={toggleHome}>
-                dolla
+              <SocialLogo
+                to='/'
+                onClick={toggleHome}>
+                <img src={logo} alt="logo" style={{ height: '60px' }} />
               </SocialLogo>
-              <WebsiteRights>dolla © {new Date().getFullYear()}
-              All rights reserved</WebsiteRights>
               <SocialIcons>
                 <SocialIconLink href='//www.facebook.com' target='_blank' aria-label="Facebook">
                   <FaFacebook />

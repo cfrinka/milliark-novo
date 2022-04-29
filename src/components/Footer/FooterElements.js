@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 export const FooterContainer = styled.footer`
@@ -64,7 +64,7 @@ export const FooterLink = styled(Link)`
   font-size: 14px;
 
   &:hover {
-    color: #01bf71;
+    color: #DDA024;
     transition: 0.3s ease-out;
   }
 `
@@ -97,11 +97,6 @@ export const SocialLogo = styled(Link)`
   align-items: center;
   margin-bottom: 16px;
   font-weight: bold;
-`
-
-export const WebsiteRights = styled.small`
-  color: #fff;
-  margin-bottom: 16px;
 `
 
 export const SocialIcons = styled.div`

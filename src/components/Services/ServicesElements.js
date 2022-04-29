@@ -19,10 +19,9 @@ export const ServicesContainer = styled.div`
 
 export const ServicesWrapper = styled.div`
 
-max-width: 1000px;
 margin: 0 auto;
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 align-items: center;
 grid-gap: 16px;
 padding: 0 50px;
@@ -37,7 +36,7 @@ padding: 0 50px;
 }
 `
 
-export const ServicesCard =  styled.div`
+export const ServicesCard = styled.div`
   background: #fff;
   display: flex;
   flex-direction: column;

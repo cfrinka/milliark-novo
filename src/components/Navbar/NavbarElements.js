@@ -23,7 +23,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
   display:flex;
   justify-content: space-between;
-  height: 80px;
+  height: 120px;
   z-index: 1;
   width: 100%;
   padding: 0 24px;
@@ -37,6 +37,7 @@ export const NavLogo = styled(LinkRouter)`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
+  margin-top: 20px;
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
@@ -83,7 +84,7 @@ export const NavLinks = styled(LinkScroll)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #01bf71;
+    border-bottom: 3px solid #DDA024;
   }
 `
 
@@ -98,7 +99,7 @@ export const NavBtn = styled.div`
 
 export const NavBtnLink = styled(LinkRouter)`
   border-radius: 50px;
-  background: #01bf71;
+  background: #DDA024;
   white-space: nowrap;
   padding: 10px 22px;
   color: #010606;
